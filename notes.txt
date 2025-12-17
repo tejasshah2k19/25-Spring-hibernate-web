@@ -1,0 +1,19 @@
+
+ORM-> object relational mapping 
+
+how to create table ?
+how hibernate will create table ? 
+	you need to create entity class ---- table 
+
+you must have to provide primary key -- hb 
+
+
+@Entity 
+@Table(name="")
+
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)//auto_increment 
+
+@Column(length = 50,nullable = false,unique = true)
+
+------------------------------------------------------
