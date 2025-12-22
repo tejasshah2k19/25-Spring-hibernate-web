@@ -13,7 +13,7 @@ public class UserEntity {
 
 	@Id // primary key 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//auto_increment 
-	private Integer userId;
+	private Integer userId; 
 
 	private String firstName;
 	private String lastName;

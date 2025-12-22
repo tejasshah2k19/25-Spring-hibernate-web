@@ -17,3 +17,39 @@ you must have to provide primary key -- hb
 @Column(length = 50,nullable = false,unique = true)
 
 ------------------------------------------------------
+to run query we will create repository instead of dao 
+what is repository ?
+	repository is an interface in hibernate / spring data jpa 
+	we will get all the ready made queries in repository 	
+	we can also write manual / native query - sql 
+	
+	how to create repository ?
+		ans : create an interface inside repository folder 
+			  inherit with JpaRepository<EntityClass,DataTypeofPrimaryKey> 
+			  
+------------------------------------------------------
+			  
+batch table :
+		id : pk 
+		name : string 
+		description : string 
+		startDate : date 
+		endDate   : date 
+		status	  : enum [IN_PROGRESS,COMPLETED,NOT_STARTED]
+		 	 
+	 entity :
+	 insert -> batch , list 
+	 TASK  
+------------------------------------------------------
+		
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
